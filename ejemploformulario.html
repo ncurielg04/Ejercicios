@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+
+</head>
+<body>
+    <h1 style="text-align: center;">Formularios</h1>
+    <table style="border: 2px solid black;  font-size: 20px; margin-left: auto; margin-right: auto;">
+        <form action="manejador.html" enctype="multipart/form-data" 
+        method="post" name="formtipos" id="formulario" ></form>
+
+        <tr>
+            <td>
+                <p><label for="nombre">Nombre: </label> 
+                <input type="text" name="nombre" maxlength="20" >
+                </p>
+                <p>
+                    <label for="menos20"></label>
+                    <input type="radio" name="etapa" id="" value="joven" checked>Menos 20
+                </p>
+                <p>
+                    <label for="menos20"></label>
+                    <input type="radio" name="etapa" id="20-40" value="adulto" checked>Entre 20 y 40
+                </p>
+                <p>
+                    <label for="menos20"></label>
+                    <input type="radio" name="etapa" id="41-60" value="maduro" checked>Entre 41 y 60 años
+                </p>
+                <p>
+                    <label for="menos20"></label>
+                    <input type="radio" name="etapa" id="61-80" value="anciano" checked>Entre 61 y 80 años
+                </p>
+                <p>
+                    <label for="menos20"></label>
+                    <input type="radio" name="etapa" id="81" value="achacoso" checked>Mas de 80
+                </p>
+        
+            </td>
+        </tr>
+
+    </table>
+
+
+
+</body>
+</html>
